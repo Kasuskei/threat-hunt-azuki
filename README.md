@@ -1,11 +1,11 @@
 # Threat Hunt Azuki Import/Export
 ## Executive Summary
 On 19 November 2025, an attacker gained unauthorized access to the environment via Remote Desktop Protocol (RDP) using compromised credentials. They staged malware, evaded defenses, harvested credentials, and laterally moved to a secondary system. Data was compressed and exfiltrated through Discord webhooks. The attacker also attempted anti‑forensics by clearing event logs and created a hidden administrator account for persistence.  
-Impact Level: High  
-Status: Contained
+**Impact Level:** High  
+**Status:** Contained
 
 ## Incident Details  
-Timeline  
+**Timeline**  
 First Malicious Activity (UTC): 19 Nov 2025, 11:10 AM  
 Last Observed Activity (UTC): 21 Nov 2025, 4:38 PM  
 Total Duration: ~2.5 days  
